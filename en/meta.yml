@@ -1,11 +1,18 @@
-title: default-project-template
+title: getting-started-guide-microbit
 hero_image: images/banner.png
 description: default-project-template description
-version: 4
+version: 1
 listed: false
 copyedit: false
-last_tested: "2022-05-19"
+last_tested: "2023-09-08"
 steps:
   - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Meet the micro:bit
+  - title: The MakeCode editor
+  - title: Connecting the micro:bit
+  - title: Using the LEDs
+  - title: Using the sensors
+  - title: Inputs
+  - title: Sounds
+  - title: Powering the micro:bit
+  - title: What's next?
