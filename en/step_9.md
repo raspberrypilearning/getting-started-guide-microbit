@@ -40,7 +40,7 @@ Put the batteries in the battery pack, make sure to line up the `-` and `+` side
 
 Connect the battery pack to the white connector in the top left corner of the micro:bit. 
 
-<img src="images/drum-noise-gallery.png" alt="The Gallery tab of the play block, with the kick drum sound highlighted." width="350"/>
+<img src="images/battery-port.jpg" alt="The top of the micro:bit the battery connector on the right is highlighted. " width="350"/>
 
 There is a line on one side of the battery pack, this will slot into the line on the battery pack connector. 
 
@@ -52,7 +52,7 @@ The micro:bit should power up, running the program you donwloaded onto it.
 
 You can reset the micro:bit by clicking the button next to the battery pack connector on the back on the micro:bit. 
 
-<img src="images/drum-noise-gallery.png" alt="The Gallery tab of the play block, with the kick drum sound highlighted." width="350"/>
+<img src="images/reset-button.jpg" alt="The back of a micro:bit with the reset button next to the USB connector highlighted." width="350"/>
 
 --- /task ---
 
