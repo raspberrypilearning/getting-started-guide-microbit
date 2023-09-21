@@ -154,7 +154,7 @@ The <code style="background-color: #1e90ff">show icon</code> block will display 
 
 Click on the heart icon at the end of the <code style="background-color: #1e90ff">show icon</code> block. 
 
-You will see a drop down, with all the available pre-built icons. 
+You will see a drop down, with all the available pre-made icons. 
 
 <img src="images/show-icons.png" alt="The 'show icon' menu expanded, showing a choice of 20 icons, with the option to scroll to see more. Icons shown include a tick symbol, a cross symbol, a smiley face and a duck." width="350"/>
 
