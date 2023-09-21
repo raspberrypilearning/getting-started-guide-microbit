@@ -16,7 +16,7 @@ Both versions have the following components for you to use:
 
 The micro:bit has **25** LEDs on the front face that you can use to show pictures, numbers, and words. 
 
-![Animation showing a heart icon, the word Hello! is then scrolled scross the LEDs in the micro:bit simulator.](images/led-demo.gif)
+![Animation showing a heart icon, the word Hello! is then scrolled across the LEDs in the micro:bit simulator.](images/led-demo.gif)
 
 #### Buttons
 
