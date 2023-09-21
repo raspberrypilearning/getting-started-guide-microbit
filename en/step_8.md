@@ -171,7 +171,7 @@ If you are using a micro:bit V1, create another <code style="background-color: #
 
 ### Playing short audio clips (micro:bit V2 only)
 
-On the newer micro:bit - alongside the microphone you have the abilty to play short audio clips. 
+On the newer micro:bit - alongside the microphone you have the ability to play short audio clips. 
 
 --- task ---
 

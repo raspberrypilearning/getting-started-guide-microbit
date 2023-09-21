@@ -76,6 +76,6 @@ Draw yourself an icon and test it out in the simulator.
 
 You can also use the <code style="background-color: #1e90ff">show number</code> block to display numbers. 
 
-If it is a single digit numer (0-9) it will take the whole screen. Any more than that the number qill scroll like the words. 
+If it is a single digit number (0-9) it will take the whole screen. Any more than that the number will scroll like the words. 
 
 You will use this block in the next step to test the sensors! 

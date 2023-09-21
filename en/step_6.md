@@ -6,7 +6,7 @@ In this step you will use the sensors on the micro:bit to record the world aroun
 
 The micro:bit has an on board sensor that can read the light levels in the environment. 
 
-The sensor returns a numbers between 0 and 255 - 255 being the mos tlight the sensor can detect. 
+The sensor returns a numbers between 0 and 255 - 255 being the most light the sensor can detect. 
 
 --- task ---
 

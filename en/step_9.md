@@ -7,7 +7,7 @@ For this step you will need the **battery pack** and **batteries** that came wit
 --- collapse ---
 
 ---
-title: You dont have batteries or a battery pack
+title: You have no batteries or battery pack
 ---
 
 If you didn't get any batteries or a battery pack, then you can still make all the amazing projects with the micro:bit that both we at the Raspberry Pi Foundation and the micro:bit Foundation have. 
@@ -46,7 +46,7 @@ There is a line on one side of the battery pack, this will slot into the line on
 
 --- /task ---
 
-The micro:bit should power up, running the program you donwloaded onto it.
+The micro:bit should power up, running the program you downloaded onto it.
 
 --- task ---
 
