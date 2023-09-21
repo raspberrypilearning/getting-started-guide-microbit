@@ -136,7 +136,7 @@ My name is Mac so I will change it to that.
 
 Again in the <code style="background-color: #1e90ff">Basic</code> menu of the Toolbox, this time grab a <code style="background-color: #1e90ff">show icon</code> block. 
 
-<img src="images/show-icon-location.png" alt="The Basic menu, with the 'show string' block highlighted." width="350"/>
+<img src="images/show-icon-location.png" alt="The Basic menu, with the 'show icon' block highlighted." width="350"/>
 
 --- /task ---
 
