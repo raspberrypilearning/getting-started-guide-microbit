@@ -148,7 +148,7 @@ Drag the <code style="background-color: #1e90ff">show icon</code> block **undern
 
 --- /task ---
 
-The <code style="background-color: #1e90ff">show icon</code> block will display a picture on the LEDs. There are laods for you to choose from. 
+The <code style="background-color: #1e90ff">show icon</code> block will display a picture on the LEDs. There are loads for you to choose from. 
 
 --- task ---
 
