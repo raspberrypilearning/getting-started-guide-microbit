@@ -8,7 +8,7 @@ You used this in the last step, you can display words (called a **string** in co
 
 The words will scroll across from right to left.
    
-<img src="images/scrolling-words.gif" alt="The purple Download button next to the name of the project" width="250"/>
+<img src="images/scrolling-words.gif" alt="The text 'Here are some words' scrolling on the micro:bit simulator's LEDs" width="250"/>
 
 **Tip:** The words scroll very slowly, so make sure to keep your messages short!
 
