@@ -18,7 +18,7 @@ To do this you use the <code style="background-color: #1e90ff">show string</code
 
 You can also use the LEDs to display simple pictures and icons. 
 
-In the last step you used the <code style="background-color: #1e90ff">show icon</code> block to do this. 
+In a previous step you used the <code style="background-color: #1e90ff">show icon</code> block to do this. 
 
 This allows you to choose from pre-programmed icons. 
 
