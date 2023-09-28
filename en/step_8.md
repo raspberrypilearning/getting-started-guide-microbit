@@ -6,18 +6,6 @@ The blocks in this step will all come from the `Music`{:class='microbitmusic'} m
 
 If you are using a V1 micro:bit, you will need **wired** headphones and two **crocodile clip** cables for this step.
 
-### Set up your workspace
-
---- task ---
-
-**Choose:** Delete your previous code by dragging it over the Toolbox
-
-**or**
-
-Go back to the home screen and make a new project
-
---- /task ---
-
 --- collapse ---
 
 ---
@@ -47,15 +35,27 @@ You will have to download the program onto your micro:bit for this test.
 
 --- /collapse ---
 
+### Set up your workspace
+
+--- task ---
+
+**Choose:** Delete your previous code by dragging it over the Toolbox
+
+**or**
+
+Go back to the home screen and make a new project
+
+--- /task ---
+
 ### Playing notes
 
 The micro:bit can play individual notes or **tones**. 
 
 --- task ---
 
-Open the <code style="background-color: #e63022">Music</code> menu in the Toolbox. 
+Open the `Music`{:class='microbitmusic'} menu in the Toolbox. 
 
-Find the <code style="background-color: #e63022">play tone</code> block. 
+Find the `play tone`{:class='microbitmusic'} block. 
 
 <img src="images/play-tone-location.png" alt="The Music menu open with the play tone block highlighted in the Tone section." width="350"/>
 
@@ -63,13 +63,13 @@ Find the <code style="background-color: #e63022">play tone</code> block.
 
 --- task ---
 
-Drag the <code style="background-color: #e63022">play tone</code> into the <code style="background-color: #1e90ff">on start</code> block. 
+Drag the `play tone`{:class='microbitmusic'} into the `on start`{:class='microbitbasic'} block. 
 
 --- /task ---
 
 --- task ---
 
-Click on the `Middle C` part of the <code style="background-color: #e63022">play tone</code> block, to change the note. 
+Click on the `Middle C` part of the `play tone`{:class='microbitmusic'} block, to change the note. 
 
 Select `Middle E`. 
 
@@ -79,11 +79,11 @@ Select `Middle E`.
 
 --- task ---
 
-Right click on the <code style="background-color: #e63022">play tone</code> block, and select **Duplicate**.
+Right click on the `play tone`{:class='microbitmusic'} block, and select **Duplicate**.
 
 <img src="images/duplicate-play-tone.gif" alt="The play tone block is right-clicked, then Duplicate is selected from the menu. A new block appears and is dragged under the original inside the on start block." width="450"/>
 
-Place the new block underneath the original inside the <code style="background-color: #1e90ff">on start</code> block.
+Place the new block underneath the original inside the `on start`{:class='microbitbasic'} block.
 
 --- /task ---
 
@@ -91,15 +91,23 @@ Place the new block underneath the original inside the <code style="background-c
 
 Duplicate the block **five** more times. 
 
-You should have **seven** <code style="background-color: #e63022">play tone</code> blocks in total.
+You should have **seven** `play tone`{:class='microbitmusic'} blocks in total.
 
 --- /task ---
 
 --- task ---
 
-Change the notes in the <code style="background-color: #e63022">play tone</code> blocks so they match the code below. 
+Change the notes in the `play tone`{:class='microbitmusic'} blocks so they match the code below. 
 
-<div style="position:relative;height:calc(350px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_02L8caPEoP5a" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+music.play(music.tonePlayable(330, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+music.play(music.tonePlayable(294, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+music.play(music.tonePlayable(294, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+music.play(music.tonePlayable(330, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+music.play(music.tonePlayable(330, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+music.play(music.tonePlayable(330, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+```
 
 The notes are:
 1. Middle E
@@ -120,7 +128,7 @@ Listen to the tones when you are done, can you guess which song is playing?
 
 --- task ---
 
-**Optional:** Use the internet to find the starting notes of a song you love, see if you can change the tones in your <code style="background-color: #1e90ff">on start</code> block to match them. 
+**Optional:** Use the internet to find the starting notes of a song you love, see if you can change the tones in your `on start`{:class='microbitbasic'} block to match them. 
 
 --- /task ---
 
@@ -128,17 +136,17 @@ Listen to the tones when you are done, can you guess which song is playing?
 
 You can also play some pre-programmed melodies from your micro:bit. 
 
-You are going to use the <code style="background-color: #d400d4">Input</code> events you learned about in the last step to do this. 
+You are going to use the `Input`{:class='microbitinput'} events you learned about in the last step to do this. 
 
 --- task ---
 
-Open the <code style="background-color: #d400d4">Input</code> menu of your tool box and drag an <code style="background-color: #d400d4">on button</code> block into your workspace.
+Open the `Input`{:class='microbitinput'} menu of your tool box and drag an `on button`{:class='microbitinput'} block into your workspace.
 
 --- /task ---
 
 --- task ---
 
-In the <code style="background-color: #e63022">Music</code> menu of the Toolbox find the <code style="background-color: #e63022">play melody</code> block in the **Melody Advanced** section.
+In the `Music`{:class='microbitmusic'} menu of the Toolbox find the `play melody`{:class='microbitmusic'} block in the **Melody Advanced** section.
 
 <img src="images/play-melody-location.png" alt="The Melody Advanced section of the Music menu, with the play melody block highlighted." width="350"/>
 
@@ -146,9 +154,13 @@ In the <code style="background-color: #e63022">Music</code> menu of the Toolbox 
 
 --- task ---
 
-Drag the <code style="background-color: #e63022">play melody</code> block inside the <code style="background-color: #d400d4">on button</code> block. 
+Drag the `play melody`{:class='microbitmusic'} block inside the `on button`{:class='microbitinput'} block. 
 
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Uo0PamXrtUP2" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+input.onButtonPressed(Button.A, function () {
+    music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.InBackground)
+})
+```
 
 --- /task ---
 
@@ -168,17 +180,17 @@ Test your program using both the simulator and your physical micro:bit.
 
 --- task ---
 
-If you are using a micro:bit V1, create another <code style="background-color: #d400d4">on button block</code> to play a second melody when **Button B** is pressed.
+If you are using a micro:bit V1, create another `on button`{:class='microbitinput'} to play a second melody when **Button B** is pressed.
 
 --- /task ---
 
 ### Playing short audio clips (micro:bit V2 only)
 
-On the newer micro:bit - alongside the microphone you have the ability to play short audio clips. 
+On the newer micro:bit you have the ability to play short audio clips. 
 
 --- task ---
 
-From the <code style="background-color: #d400d4">Input</code> menu drag another <code style="background-color: #d400d4">on button</code> block to your workspace. 
+From the `Input`{:class='microbitinput'} menu drag another `on button`{:class='microbitinput'} block to your workspace. 
 
 Change the button from `A` to `B`.
 
@@ -186,7 +198,7 @@ Change the button from `A` to `B`.
 
 --- task ---
 
-Open the <code style="background-color: #e63022">Music</code> menu and find the <code style="background-color: #e63022">play</code> block from the micro:bit V2 section. 
+Open the `Music`{:class='microbitmusic'} menu and find the `play`{:class='microbitmusic'} block from the micro:bit V2 section. 
 
 <img src="images/play-block-V2-location.png" alt="The micro:bit V2 section of the music menu, a play block is highlighted at the top of the section." width="350"/>
 
@@ -194,9 +206,13 @@ Open the <code style="background-color: #e63022">Music</code> menu and find the 
 
 --- task ---
 
-Drag the <code style="background-color: #e63022">play</code> block inside the <code style="background-color: #d400d4">on button B</code> block.
+Drag the `play`{:class='microbitmusic'}> block inside the `on button B pressed`{:class='microbitinput'} block.
 
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_WTXie8hz4KoF" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+input.onButtonPressed(Button.B, function () {
+    music.play(music.builtinPlayableSoundEffect(soundExpression.giggle), music.PlaybackMode.UntilDone)
+})
+```
 
 --- /task ---
 
@@ -204,9 +220,13 @@ Drag the <code style="background-color: #e63022">play</code> block inside the <c
 
 Click on the `giggle` part and select another clip. 
 
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_9vuL8kM9f7mR" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
-
 We have chosen `mysterious`!
+
+```microbit
+input.onButtonPressed(Button.B, function () {
+    music.play(music.builtinPlayableSoundEffect(soundExpression.mysterious), music.PlaybackMode.UntilDone)
+})
+```
 
 --- /task ---
 
@@ -228,7 +248,7 @@ Make a new program and use what you have learned about events to create a piano 
 title: Drum noises for V2 micro:bit
 ---
 
-You can get specific drum noises in the micro:bit v2 section of the <code style="background-color: #e63022">Music</code> menu. 
+You can get specific drum noises in the micro:bit v2 section of the `Music`{:class='microbitmusic'} menu. 
 
 <img src="images/drum-noise-location.png" alt="The micro:bit V2 section of the music menu, a play block is highlighted at the top of the section." width="350"/>
 

@@ -1,6 +1,6 @@
 ## Inputs
 
-In this step you will use the buttons and some gestures to trigger **events** on your micro:bit. 
+In this step you will use the buttons and gestures **events** to trigger code on your micro:bit. 
 
 ### Set up your workspace
 

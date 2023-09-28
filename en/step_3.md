@@ -22,7 +22,7 @@ There is also a [downloadable version of the MakeCode editor](https://makecode.m
 
 ### The MakeCode homepage
 
-The first screen you are presented with is the MakeCode homepage. Here you will find the button to create new projects, and all your existing projects (Once you have made some). 
+The first screen you are presented with is the MakeCode homepage. Here you will find the button to create new projects. 
 
 ![The MakeCode homepage, a banner runs across the top. Underneath is the 'New Project' button. Finally there is a row of tutorials underneath that.](images/makecode-homepage.png)
 
@@ -42,13 +42,9 @@ Click on the **New Project** button.
 
 Give your project a name - we are going with **my first project**.
 
+Click **Create** to get started with your project.
+
 ![The 'Create a Project' dialogue box, with the name 'my first project' written in the input box](images/my-first-project.png)
-
---- /task ---
-
---- task ---
-
-Click **Create** to get started with your project
 
 --- /task ---
 
