@@ -10,17 +10,19 @@ The sensor returns a numbers between 0 and 255 - 255 being the most light the se
 
 --- task ---
 
-Choose: Delete any code inside your <code style="background-color: #1e90ff">forever</code> block
+**Choose:** 
+
+Delete any code inside your <code style="background-color: #1e90ff">forever</code> block.
 
 **or** 
 
-go back to the home screen and create a new project called `sensor test`.
+Go back to the home screen and create a new project called `sensor test`.
 
 --- /task ---
 
 --- task ---
 
-Open the <code style="background-color: #1e90ff">Basic</code> menu in the Toolbox. Find the <code style="background-color: #1e90ff">show number</code> block. 
+Open the `Basic`{:class='microbitbasic'} menu in the Toolbox. Find the `show number`{:class='microbitbasic'} block. 
 
 <img src="images/show-number-location.png" alt="The Basic menu open with the show number block highlighted" width="350"/>
 
@@ -28,17 +30,21 @@ Open the <code style="background-color: #1e90ff">Basic</code> menu in the Toolbo
 
 --- task ---
 
-Drag it into the <code style="background-color: #1e90ff">forever</code> block. 
+Drag it into the `forever`{:class='microbitbasic'} block. 
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_5FWTok5cqAkM" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```
+basic.forever(function () {
+    basic.showNumber(0)
+})
+```
 
 --- /task ---
 
 --- task ---
 
-Now open the <code style="background-color: #d400d4">Input</code> menu. 
+Now open the `Input`{:class='microbitinput'} menu. 
 
-Find the <code style="background-color: #d400d4">light level</code> block.
+Find the `light level`{:class='microbitinput'} block.
 
 <img src="images/light-level-location.png" alt="The Input menu, open with the light level block highlighted" width="350"/>
 
@@ -46,9 +52,13 @@ Find the <code style="background-color: #d400d4">light level</code> block.
 
 --- task ---
 
-Drag the block over the top of the `0` in the <code style="background-color: #1e90ff">show number</code> block.
+Drag the block over the top of the `0` in the `show number`{:class='microbitbasic'} block.
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_1qPWK1W2iDkt" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    basic.showNumber(input.lightLevel())
+})
+```
 
 --- /task ---
 
@@ -70,17 +80,17 @@ You can read other sensors on the micro:bit as well, using the same code as abov
 
 #### Temperature
 
-Inside the <code style="background-color: #d400d4">Input</code> menu there is also a block for <code style="background-color: #d400d4">temperature</code> - which is a reading from the onboard thermometer. 
+Inside the `Input`{:class='microbitinput'} menu there is also a block for `temperature`{:class='microbitinput'} - which is a reading from the onboard thermometer. 
 
 --- task ---
 
-Delete the <code style="background-color: #d400d4">light level</code> block by dragging it over the Toolbox
+Delete the `light level`{:class='microbitinput'} block by dragging it over the Toolbox
 
 --- /task ---
 
 --- task ---
 
-Open the <code style="background-color: #d400d4">Input</code> menu and find the <code style="background-color: #d400d4">temperature</code> block. 
+Open the `Input`{:class='microbitinput'} menu and find the `temperature`{:class='microbitinput'} block. 
 
 <img src="images/temperature-block.png" alt="A section of the Input menu, the temperature block is highlighted near the borrom" width="300"/>
 
@@ -88,9 +98,13 @@ Open the <code style="background-color: #d400d4">Input</code> menu and find the 
 
 --- task ---
 
-Place this block into the `0` of the <code style="background-color: #1e90ff">show number</code> block.
+Place this block into the `0` of the `show number`{:class='microbitbasic'} block.
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Ya7UEa1kTbir" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    basic.showNumber(input.temperature())
+})
+```
 
 --- /task ---
 
@@ -114,13 +128,13 @@ The sound level will be read as a number between `0` (no sound at all) and `255`
 
 --- task ---
 
-Delete the <code style="background-color: #d400d4">temperature</code> block.
+Delete the `temperature`{:class='microbitinput'} block.
 
 --- /task ---
 
 --- task ---
 
-Open the <code style="background-color: #d400d4">Input</code> menu and look in the **micro:bit v2** section to find the <code style="background-color: #d400d4">sound level</code> block. 
+Open the `Input`{:class='microbitinput'} menu and look in the **micro:bit v2** section to find the `sound level`{:class='microbitinput'} block. 
 
 <img src="images/sound-level-location.png" alt="A section of the Input menu, showing the 'micro:bit V2' section. The 'sound level' block is highlighted at the bottom" width="300"/>
 
@@ -128,12 +142,20 @@ Open the <code style="background-color: #d400d4">Input</code> menu and look in t
 
 --- task ---
 
-Place the <code style="background-color: #d400d4">sound level</code> block over the top of the `0` in the <code style="background-color: #1e90ff">show number</code> block. 
+Place the `sound level`{:class='microbitinput'} block over the top of the `0` in the `show number`{:class='microbitbasic'} block. 
+
+```microbit
+basic.forever(function () {
+    basic.showNumber(input.soundLevel())
+})
+```
 
 --- /task ---
 
 --- task ---
 
 Download the program to your physical micro:bit and test it out by making loud and quiet noises! Watch the number change.
+
+[[[download-to-microbit]]]
 
 --- /task ---

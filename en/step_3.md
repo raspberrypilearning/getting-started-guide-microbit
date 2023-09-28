@@ -60,19 +60,34 @@ Now you are presented with the MakeCode editor, this is the screen you will use 
 
 --- task ---
 
-The very first thing that will happen is you will be offered a tour of the editor. Take the tour to explore the MakeCode interface
+The very first thing that will happen is you will be offered a tour of the editor. Take the tour to explore the MakeCode interface.
 
 --- /task ---
 
-Below is a quick reminder of the different parts of the editor, for you to refer back to later or to help you better understand the interface. 
+Below is a quick reminder of the different parts of the editor, for you to refer back to later or to help you better understand the interface.
 
-#### The micro:bit simulator
+--- collapse ---
+
+---
+title: The micro:bit simulator
+---
+
+<img src="images/microbit-simulator.png" alt="The micro:bit simulator, a virtual version    of the micro:bit with buttons below to start a simulation, restart a program and debug." width="350"/>
 
 On the left hand side is a virtual version of the micro:bit - called **the simulator**. This allows you to test your projects while you create them, without having to download them to the physical device. 
 
-#### The Toolbox
+--- /collapse ---
 
-The micro:bit can be programmed using blocks, javascript or Python. For your first few projects we recommend you stick with the blocks. 
+--- collapse ---
+
+---
+title: The Toolbox
+---
+
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1">  
+
+The micro:bit can be programmed using blocks, JavaScript or Python. For your first few projects we recommend you stick with the blocks. 
 
 The toolbox is where you get the blocks that make up your program. It is split into **categories** that are colour coded. You might be used to this sort of thing if you have used Scratch. 
 
@@ -80,19 +95,35 @@ The blocks in each category will do a specific type of task - like playing music
 
 You will be using the Toolbox a lot!
 
-#### The Workspace
+</div>
+<div>
+    <img src="images/toolbox.png" alt="The Toolbox of MakeCode - with menus for Inputs, Music, Loops and more."/>
+</div>
+</div>
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: The Workspace
+---
+
+<img src="images/workspace.png" alt="The MakeCode Wrokspace, with two blocks on it - on start and forever." width="350"/>
 
 This is the biggest section of the editor, and it is where your program goes. 
 
 When you grab blocks from the Toolbox, you will place them in the Workspace. Only things in your Workspace will run. 
 
+--- /collapse ---
+
 ### Creating your first program
 
 --- task ---
 
-You only need the <code style="background-color: #1e90ff">forever</code> block for this program. 
+You only need the `forever`{:class='microbitbasic'} block for this program. 
 
-Grab the <code style="background-color: #1e90ff">on start</code> and drag it over the Toolbox.
+Grab the `on start`{:class='microbitbasic'} and drag it over the Toolbox.
 
 ![The MakeCode editor, the on start block is held over the Toolbox. The Toolbox is highlighted red and a purple bin is over the top of it.](images/delete-block.png)
 
@@ -102,17 +133,17 @@ You should see a rubbish bin appear when you do this. Release the block to **del
 
 --- task ---
 
-Open the <code style="background-color: #1e90ff">Basic</code> menu in the Toolbox. 
+Open the `Basic`{:class='microbitbasic'} menu in the Toolbox. 
 
 <img src="images/show-string-location.png" alt="The Basic menu, with the 'show string' block highlighted." width="350"/>
 
-Grab a <code style="background-color: #1e90ff">show string</code> block. 
+Grab a `show string`{:class='microbitbasic'} block. 
 
 --- /task ---
 
 --- task ---
 
-Place the <code style="background-color: #1e90ff">show string</code> block **inside** the <code style="background-color: #1e90ff">forever</code> block in the Workspace. 
+Place the `show string`{:class='microbitbasic'} block **inside** the `forever`{:class='microbitbasic'} block in the Workspace. 
 
 The blocks will fit together like puzzle pieces.
 
@@ -124,17 +155,23 @@ The blocks will fit together like puzzle pieces.
 
 The simulator will immediately run your program, you will see the word `Hello!` scroll across the LEDs. 
 
-Change the text in the <code style="background-color: #1e90ff">show string</code> to your name. 
+Change the text in the `show string`{:class='microbitbasic'} to your name. 
 
 My name is Mac so I will change it to that. 
 
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_T3yfhfdbC9y6" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    basic.showString("Mac!")
+})
+```
+
+**You should notice that when you make a change to your code, the simulator restarts.**
 
 --- /task ---
 
 --- task ---
 
-Again in the <code style="background-color: #1e90ff">Basic</code> menu of the Toolbox, this time grab a <code style="background-color: #1e90ff">show icon</code> block. 
+Again in the `Basic`{:class='microbitbasic'} menu of the Toolbox, this time grab a `show icon`{:class='microbitbasic'} block. 
 
 <img src="images/show-icon-location.png" alt="The Basic menu, with the 'show icon' block highlighted." width="350"/>
 
@@ -144,15 +181,20 @@ Again in the <code style="background-color: #1e90ff">Basic</code> menu of the To
 
 Drag the <code style="background-color: #1e90ff">show icon</code> block **underneath** the <code style="background-color: #1e90ff">show string</code> block in the Workspace. 
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_EhKLF2HxhbuL" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    basic.showString("Mac!")
+    basic.showIcon(IconNames.Heart)
+})
+```
 
 --- /task ---
 
-The <code style="background-color: #1e90ff">show icon</code> block will display a picture on the LEDs. There are loads for you to choose from. 
+The `show icon`{:class='microbitbasic'} block will display a picture on the LEDs. There are loads for you to choose from. 
 
 --- task ---
 
-Click on the heart icon at the end of the <code style="background-color: #1e90ff">show icon</code> block. 
+Click on the heart icon at the end of the `show icon`{:class='microbitbasic'} block. 
 
 You will see a drop down, with all the available pre-made icons. 
 

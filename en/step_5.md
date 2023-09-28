@@ -12,13 +12,13 @@ The words will scroll across from right to left.
 
 **Tip:** The words scroll very slowly, so make sure to keep your messages short!
 
-To do this you use the <code style="background-color: #1e90ff">show string</code> block from the <code style="background-color: #1e90ff">Basic</code> menu in the Toolbox. 
+To do this you use the `show string`{:class='microbitbasic'} block from the `Basic`{:class='microbitbasic'} menu in the Toolbox. 
 
 ### Pictures (icons)
 
 You can also use the LEDs to display simple pictures and icons. 
 
-In a previous step you used the <code style="background-color: #1e90ff">show icon</code> block to do this. 
+In the last step you used the `show icon`{:class='microbitbasic'} block to do this. 
 
 This allows you to choose from pre-programmed icons. 
 
@@ -48,7 +48,7 @@ Name your project `drawing icons` and click **Create**
 
 --- task ---
 
-Open the <code style="background-color: #1e90ff">Basic</code> menu in the tool box and find the <code style="background-color: #1e90ff">show leds</code> block. 
+Open the <code style="background-color: #1e90ff">Basic</code> menu in the Toolbox and find the <code style="background-color: #1e90ff">show leds</code> block. 
 
 <img src="images/show-leds-block-location.png" alt="The Basic menu open, with the show leds block highlighted." width="350"/>
 
@@ -56,9 +56,19 @@ Open the <code style="background-color: #1e90ff">Basic</code> menu in the tool b
 
 --- task ---
 
-Drag this into the Workspace and place it inside the <code style="background-color: #1e90ff">forever</code> block. 
+Drag this into the Workspace and place it inside the `forever`{:class='microbitbasic'} block. 
 
-<div style="position:relative;height:calc(175px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:S60649-84652-14785-29638" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+basic.forever(function () {
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+})
+```
 
 --- /task ---
 
@@ -66,16 +76,16 @@ Drag this into the Workspace and place it inside the <code style="background-col
 
 You can draw your icons by click on the squares, a white filled in square will mean the LED lights up. 
 
-<img src="images/draw-icons.png" alt="The show leds block, with a smiley face drawn on it. Next to it is the micro:bit simulator with the same smiley face on the LEDs" width="400"/>
-
 Draw yourself an icon and test it out in the simulator.
+
+<img src="images/draw-icons.png" alt="The show leds block, with a smiley face drawn on it. Next to it is the micro:bit simulator with the same smiley face on the LEDs" width="400"/>
 
 --- /task ---
 
 ### Showing numbers
 
-You can also use the <code style="background-color: #1e90ff">show number</code> block to display numbers. 
+You can also use the `show number`{:class='microbitbasic'} block to display numbers. 
 
-If it is a single digit number (0-9) it will take the whole screen. Any more than that the number will scroll like the words. 
+If it is a single digit numer (0-9) it will take the whole screen. Any more than that the number will scroll like the words. 
 
 You will use this block in the next step to test the sensors! 

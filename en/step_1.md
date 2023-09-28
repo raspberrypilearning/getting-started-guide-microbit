@@ -1,10 +1,10 @@
 ## Introduction
 
-In this project you will connect a micro:bit to a computer and learn how to program it using the MakeCode editor.
+![Illustration of the BBC micro:bit, surrounded by icons representing the different projects in the micro:bit pathway.](images/microbit-pathway-banner.png)
 
-The BBC micro:bit is a pocket sized computer that you can use to create physical computing projects that interact with the real world. There are a number of sensors and output devices built into the micro:bit that you can quickly use to create some impressive computing projects! 
+The BBC micro:bit is a pocket sized computer that has sensors and outputs built in. You can use it to create physical computing projects that interact with the real world.
 
-[The micro:bit Foundation](https://microbit.org/){:target="_blank"} is an educational charity that uses the micro:bit to get young people excited about making computing projects that matter to them. They also develop the [MakeCode editor](https://makecode.microbit.org/#){:target="_blank"} that allows you to create programs for the micro:bit, and download them onto the device. 
+[The micro:bit Foundation](https://microbit.org/){:target="_blank"} is an educational charity that created the micro:bit and the [MakeCode editor](https://makecode.microbit.org/#){:target="_blank"} to get young people excited about coding.
 
 <div>
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
@@ -14,9 +14,11 @@ The BBC micro:bit is a pocket sized computer that you can use to create physical
 
 ### What you will make
 
-You will take a tour of both the micro:bit device and MakeCode editor. You will connect your micro:bit to your computer, pair it with MakeCode and download your program onto the physical device. The rest of this project will showcase the different types of components on the micro:bit that you can use to create your programs. 
+You will take a tour of both the micro:bit device and MakeCode editor. You will connect your micro:bit to your computer, pair it with MakeCode and download your program onto the physical device. 
 
 ![Image of micro:bit side by side with the MakeCode editor](images/microbit-makecode.png)
+
+The rest of this project will guide you through making projects with the components on the micro:bit!
 
 --- collapse ---
 ---
@@ -43,7 +45,7 @@ title: What you will learn
 
 + How to use the MakeCode editor
 + How to connect your micro:bit to your computer and download a MakeCode program to it
-+ How to use the micro:bit's components like; the LED MakeCode, sensors, buttons and the speaker (V2 only). 
++ How to use the micro:bit's components like; the LEDs, sensors, buttons and the speaker (V2 only). 
 
 --- /collapse ---
 

@@ -2,7 +2,7 @@
 
 In this step you will see how the micro:bit can play sounds including notes, melodies and short audio clips (V2 only). 
 
-The blocks in this step will all come from the <code style="background-color: #e63022">Music</code> menu in the Toolbox.
+The blocks in this step will all come from the `Music`{:class='microbitmusic'} menu in the Toolbox.
 
 If you are using a V1 micro:bit, you will need **wired** headphones and two **crocodile clip** cables for this step.
 
@@ -32,15 +32,18 @@ You will want to set the volume of the sound to around `60` before testing, as i
 
 You can test whether they are working with the following code: 
 
-<div style="position:relative;height:calc(150px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_aoyU6dKJALsH" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+```microbit
+music.setVolume(60)
+music.play(music.tonePlayable(262, music.beat(BeatFraction.Double)), music.PlaybackMode.UntilDone)
+```
 
-You can find the <code style="background-color: #e63022">play tone</code> and <code style="background-color: #e63022">set volume</code> blocks in the <code style="background-color: #e63022">Music</code> menu of your Toolbox. 
+You can find the `play tone`{:class='microbitmusic'} and `set volume`{:class='microbitmusic'} blocks in the `Music`{:class='microbitmusic'} menu of your Toolbox. 
 
 <img src="images/headphone-test-blocks.png" alt="The Music menu open with the play tone block highlighted in the Tone section." width="350"/>
 
 You will have to download the program onto your micro:bit for this test. 
 
-**Once you are sure it is working, make sure to delete the <code style="background-color: #e63022">play tone</code> block**
+**Once you are sure it is working, make sure to delete the `play tone`{:class='microbitmusic'} block**
 
 --- /collapse ---
 

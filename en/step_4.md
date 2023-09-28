@@ -48,6 +48,8 @@ You will see another box telling you the pairing was successful.
 
 Click **Download** to start the download process.
 
+The yellow light on the back of the micro:it will flash really fast to let you know the program is transferring.
+
 --- /task ---
 
 --- collapse ---
