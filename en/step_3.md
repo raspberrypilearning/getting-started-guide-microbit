@@ -175,7 +175,7 @@ Again in the `Basic`{:class='microbitbasic'} menu of the Toolbox, this time grab
 
 --- task ---
 
-Drag the <code style="background-color: #1e90ff">show icon</code> block **underneath** the <code style="background-color: #1e90ff">show string</code> block in the Workspace. 
+Drag the `show icon`{:class='microbitbasic'} block **underneath** the `show string`{:class='microbitbasic'} block in the Workspace. 
 
 ```microbit
 basic.forever(function () {
