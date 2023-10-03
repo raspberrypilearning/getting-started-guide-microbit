@@ -1,11 +1,29 @@
-## What next?
+## Sharing your code
 
-- If you want to get some more experience with the micro:bit you can try our two micro:bit Discover projects, short projects to use the components you have learned about here!
-    - [Hobby selector](https://projects.raspberrypi.org/en/projects/hobby-selector) helps you make those hard decisions about what to do with your free time!
-    - [Silly reminder](https://projects.raspberrypi.org/en/projects/silly-reminder) gets you to hold some silly poses for 10 seconds to add some fun to your day!
+To let other people access your project, you can share your project's unique web address.
 
-- Try the new [introduction to micro:bit path](https://projects.raspberrypi.org/en/pathways/microbit-intro), to make some great projects with micro:bit to use the device to look after your wellbeing and have some fun.
+At the top right of MakeCode is the menu bar.
 
-- You can also try some of the [amazing projects by the micro:bit Foundation on MakeCode.](https://makecode.microbit.org/#)
+![The MakeCode menu bar showing the share button highlighted](images/topmenu.png)
 
-Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!
+Click on the share button.
+ 
+![The share button](images/sharebutton.png) 
+
+This will open the project window.
+
+![The Share Project window with the Share Project button displayed](images/shareprojectwindow.png)
+
+If you have not already named your project, you can do that now.
+
+Click the Share Project button.
+
+![The Share Project window with the Share Project button displayed](images/shareprojectbutton.png)
+
+This will create a new version of your project and a link to it.
+
+![The Share Project window with the Share Project button displayed](images/sharelink.png)
+
+Click **Copy** and then paste the link into a message, or write down the link to give to the person you want to share the project with.
+
+**Tip:** 💡 People who open this link will get their own version of your project. They will not be able to change your version.
