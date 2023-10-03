@@ -48,7 +48,7 @@ Name your project `drawing icons` and click **Create**
 
 --- task ---
 
-Open the <code style="background-color: #1e90ff">Basic</code> menu in the Toolbox and find the <code style="background-color: #1e90ff">show leds</code> block. 
+Open the `Basic`{:class='microbitbasic'} menu in the Toolbox and find the `show leds`{:class='microbitbasic'} block. 
 
 <img src="images/show-leds-block-location.png" alt="The Basic menu open, with the show leds block highlighted." width="350"/>
 

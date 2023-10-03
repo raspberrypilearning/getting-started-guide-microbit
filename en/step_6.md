@@ -12,7 +12,7 @@ The sensor returns a numbers between 0 and 255 - 255 being the most light the se
 
 **Choose:** 
 
-Delete any code inside your <code style="background-color: #1e90ff">forever</code> block.
+Delete any code inside your `forever`{:class='microbitbasic'} block.
 
 **or** 
 
