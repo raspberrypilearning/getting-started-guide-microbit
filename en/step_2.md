@@ -64,7 +64,7 @@ There is an onboard speaker to play melodies, notes and short audio clips.
 
 The micro:bit V2 has an MEMS microphone that is capable of detecting sound levels and even recording short audio clips.
 
-#### Touch sensitive logo
+#### Touch sensitive logo
 
 There is a new input button, the micro:bit logo on the front face is now touch sensitive. You can program different things to happen when it is pressed, held for a long time or released (when someone stops touching it). 
 
