@@ -32,7 +32,7 @@ Open the `Basic`{:class='microbitbasic'} menu in the Toolbox. Find the `show num
 
 Drag it into the `forever`{:class='microbitbasic'} block. 
 
-```
+```microbit
 basic.forever(function () {
     basic.showNumber(0)
 })
