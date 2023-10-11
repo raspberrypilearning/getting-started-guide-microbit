@@ -30,7 +30,7 @@ title: What you will need
 + A BBC micro:bit (V1 or V2)
 + A micro USB cable
 + Battery pack and two AAA batteries
-+ Headphones & Crocodile cables (**V1 micro:bit only**)
++ Wired headphones & Crocodile cables (**V1 micro:bit only**)
 
 ### Software
 

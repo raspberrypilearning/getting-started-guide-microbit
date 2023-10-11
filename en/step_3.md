@@ -80,9 +80,6 @@ On the left hand side is a virtual version of the micro:bit - called **the simul
 title: The Toolbox
 ---
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1">  
-
 The micro:bit can be programmed using blocks, JavaScript or Python. For your first few projects we recommend you stick with the blocks. 
 
 The toolbox is where you get the blocks that make up your program. It is split into **categories** that are colour coded. You might be used to this sort of thing if you have used Scratch. 
@@ -91,11 +88,7 @@ The blocks in each category will do a specific type of task - like playing music
 
 You will be using the Toolbox a lot!
 
-</div>
-<div>
-    <img src="images/toolbox.png" alt="The Toolbox of MakeCode - with menus for Inputs, Music, Loops and more."/>
-</div>
-</div>
+<img src="images/toolbox.png" alt="The Toolbox of MakeCode - with menus for Inputs, Music, Loops and more."/>
 
 --- /collapse ---
 

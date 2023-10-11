@@ -55,7 +55,7 @@ The yellow light on the back of the micro:it will flash really fast to let you k
 --- collapse ---
 
 ---
-title: My microbit won't pair
+title: My micro:bit won't pair
 ---
 
 If your micro:bit isn't showing up, try unplugging it and plugging it back in. You can also try a different USB port or USB cable if they are available.
