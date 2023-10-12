@@ -45,7 +45,7 @@ title: What you will learn
 
 + How to use the MakeCode editor
 + How to connect your micro:bit to your computer and download a MakeCode program to it
-+ How to use the micro:bit's components like; the LEDs, sensors, buttons and the speaker (V2 only). 
++ How to use the micro:bit's components like; the LEDs, sensors and buttons. If you have the V2 micro:bit, you will learn how to use the speaker.
 
 --- /collapse ---
 
