@@ -1,12 +1,12 @@
-## Using the sensors
+## How to use the sensors
 
-In this step you will use the sensors on the micro:bit to record the world around you. 
+In this step, you will use the sensors on the micro:bit to record something about the world around you. 
 
 ### Light sensor
 
-The micro:bit has an on board sensor that can read the light levels in the environment. 
+The micro:bit has an on-board sensor that can read the light levels in the environment. 
 
-The sensor returns a numbers between 0 and 255 - 255 being the most light the sensor can detect. 
+The sensor returns a numbers between 0 and 255, with 255 being the most light the sensor can detect. 
 
 --- task ---
 
@@ -22,9 +22,9 @@ Go back to the home screen and create a new project called `sensor test`.
 
 --- task ---
 
-Open the `Basic`{:class='microbitbasic'} menu in the Toolbox. Find the `show number`{:class='microbitbasic'} block. 
+Open the `Basic`{:class='microbitbasic'} menu in the toolbox. Find the `show number`{:class='microbitbasic'} block. 
 
-<img src="images/show-number-location.png" alt="The Basic menu open with the show number block highlighted" width="350"/>
+<img src="images/show-number-location.png" alt="The Basic menu open, with the show number block highlighted." width="350"/>
 
 --- /task ---
 
@@ -46,7 +46,7 @@ Now open the `Input`{:class='microbitinput'} menu.
 
 Find the `light level`{:class='microbitinput'} block.
 
-<img src="images/light-level-location.png" alt="The Input menu, open with the light level block highlighted" width="350"/>
+<img src="images/light-level-location.png" alt="The Input menu open, with the light level block highlighted." width="350"/>
 
 --- /task ---
 
@@ -70,7 +70,7 @@ Click the **Download** button to save your program to your micro:bit.
 
 --- task ---
 
-Test your program to see the number change as you put it in shade and under lights.
+Test your program to see the number change as you put your micro:bit in the shade and under lights.
 
 --- /task ---
 
@@ -80,11 +80,11 @@ You can read other sensors on the micro:bit as well, using the same code as abov
 
 #### Temperature
 
-Inside the `Input`{:class='microbitinput'} menu there is also a block for `temperature`{:class='microbitinput'} - which is a reading from the onboard thermometer. 
+Inside the `Input`{:class='microbitinput'} menu there is also a block for `temperature`{:class='microbitinput'}, which is a reading from the on-board thermometer. 
 
 --- task ---
 
-Delete the `light level`{:class='microbitinput'} block by dragging it over the Toolbox
+Delete the `light level`{:class='microbitinput'} block by dragging it back to the toolbox.
 
 --- /task ---
 
@@ -92,7 +92,7 @@ Delete the `light level`{:class='microbitinput'} block by dragging it over the T
 
 Open the `Input`{:class='microbitinput'} menu and find the `temperature`{:class='microbitinput'} block. 
 
-<img src="images/temperature-block.png" alt="A section of the Input menu, the temperature block is highlighted near the borrom" width="300"/>
+<img src="images/temperature-block.png" alt="A section of the Input menu, with the temperature block highlighted near the bottom of the list." width="300"/>
 
 --- /task ---
 
@@ -136,7 +136,7 @@ Delete the `temperature`{:class='microbitinput'} block.
 
 Open the `Input`{:class='microbitinput'} menu and look in the **micro:bit v2** section to find the `sound level`{:class='microbitinput'} block. 
 
-<img src="images/sound-level-location.png" alt="A section of the Input menu, showing the 'micro:bit V2' section. The 'sound level' block is highlighted at the bottom" width="300"/>
+<img src="images/sound-level-location.png" alt="A section of the Input menu, showing the 'micro:bit V2' section. The 'sound level' block is highlighted at the bottom." width="300"/>
 
 --- /task ---
 
