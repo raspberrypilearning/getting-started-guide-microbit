@@ -6,7 +6,7 @@ In this step, you will use the sensors on the micro:bit to record something abou
 
 The micro:bit has an on-board sensor that can read the light levels in the environment. 
 
-The sensor returns a numbers between 0 and 255, with 255 being the most light the sensor can detect. 
+The sensor returns a number between 0 and 255, with 255 being the most light the sensor can detect. 
 
 --- task ---
 
@@ -134,7 +134,7 @@ Delete the `temperature`{:class='microbitinput'} block.
 
 --- task ---
 
-Open the `Input`{:class='microbitinput'} menu and look in the **micro:bit v2** section to find the `sound level`{:class='microbitinput'} block. 
+Open the `Input`{:class='microbitinput'} menu and look in the **micro:bit V2** section to find the `sound level`{:class='microbitinput'} block. 
 
 <img src="images/sound-level-location.png" alt="A section of the Input menu, showing the 'micro:bit V2' section. The 'sound level' block is highlighted at the bottom." width="300"/>
 
