@@ -44,7 +44,7 @@ There is an accelerometer that you can use to detect the rotation and motion of 
 
 #### Four GPIO pins
 
-Just like a Raspberry Pi, Raspberry Pi Zero and the Raspberry Pi Pico the micro:bit has **general purpose input output** pins. There are four pins and a single ground pin. You can use these to connect a range of extra components for physical computing projects. 
+Just like a Raspberry Pi, Raspberry Pi Zero, and the Raspberry Pi Pico, the micro:bit has **general purpose input output** pins. There are four pins and a single ground pin. You can use these to connect a range of extra components for physical computing projects. 
 
 #### Radio
 
