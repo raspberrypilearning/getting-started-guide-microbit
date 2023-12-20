@@ -10,7 +10,7 @@ Click on the **share** button.
  
 ![The share button.](images/sharebutton.png) 
 
-This will open the project window.
+This will open the Share Project window.
 
 ![The Share Project window with the Share Project button displayed.](images/shareprojectwindow.png)
 
@@ -18,11 +18,11 @@ If you have not already named your project, you can do that now.
 
 Click the **Share Project** button.
 
-![The Share Project window with the Share Project button displayed.](images/shareprojectbutton.png)
+![The Share Project button.](images/shareprojectbutton.png)
 
 This will create a new version of your project and a link to it.
 
-![The Share Project window with the Share Project button displayed.](images/sharelink.png)
+![The Share Project window with a shareable link and a Copy button displayed.](images/sharelink.png)
 
 Click **Copy** and then paste the link into a message, or write down the link to give to the person you want to share the project with.
 
