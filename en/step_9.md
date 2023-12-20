@@ -42,7 +42,7 @@ Connect the battery pack to the white connector in the top-left corner of the mi
 
 <img src="images/battery-port.jpg" alt="The top of the micro:bit the battery connector on the right is highlighted." width="350"/>
 
-There is a line on one side of the battery pack, this will slot into the line on the battery pack connector. 
+There is a line on one side of the battery pack, this will slot into the groove on the battery pack connector. 
 
 --- /task ---
 
