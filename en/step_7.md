@@ -1,6 +1,6 @@
 ## Inputs
 
-In this step, you will use the buttons and gestures **events** to trigger code on your micro:bit. 
+In this step, you will use the buttons and gestures to create **events** that trigger code on your micro:bit. 
 
 ### Set up your workspace
 
@@ -54,7 +54,7 @@ input.onButtonPressed(Button.A, function () {
 
 --- task ---
 
-**Choose:** an icon to show when the A button is pressed.
+**Choose** an icon to show when button A is pressed.
 
 --- /task ---
 
@@ -134,7 +134,7 @@ input.onGesture(Gesture.Shake, function () {
 
 ### Touch logo (V2 only)
 
-The newer version of the micro:bit has some extra events that use the new **touch sensitive** logo. 
+The newer version of the micro:bit has some extra events that use the new **touch-sensitive** logo. 
 
 You can trigger code when:
 
