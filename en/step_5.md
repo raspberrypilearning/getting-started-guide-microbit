@@ -1,8 +1,8 @@
 ## Using the LEDs
 
-In this step, you will learn the ways you can use the LED display on the front of the micro:bit.
+In this step, you will explore the various ways you can use the LED display on the front of the micro:bit.
 
-### Displaying words
+### Display words
 
 You used this in the last step, where you displayed words (called a **string** in computing) on the micro:bit's LEDs. 
 
@@ -14,15 +14,13 @@ The words will scroll across from right to left.
 
 To do this, you use the `show string`{:class='microbitbasic'} block from the `Basic`{:class='microbitbasic'} menu in the toolbox. 
 
-### Displaying pictures (icons)
+### Draw pictures (icons)
 
 You can also use the LEDs to display simple pictures and icons. 
 
 In the last step, you used the `show icon`{:class='microbitbasic'} block to do this. 
 
-This allows you to choose from preprogrammed icons. 
-
-You can also draw your own! 
+This allows you to choose from preprogrammed icons, but you can also draw your own! 
 
 --- task ---
 
@@ -82,7 +80,7 @@ Draw an icon and test it out in the simulator.
 
 --- /task ---
 
-### Showing numbers
+### Show numbers
 
 You can also use the `show number`{:class='microbitbasic'} block to display numbers. 
 
