@@ -1,8 +1,8 @@
 ## The MakeCode editor
 
-In this step you will take a tour of the MakeCode editor, and create your first program for the micro:bit. 
+In this step, you will take a tour of the MakeCode editor and create your first program for the micro:bit. 
 
-### Opening MakeCode
+### Open MakeCode
 
 --- task ---
 
@@ -103,6 +103,8 @@ title: The workspace
 This is the biggest section of the editor, and it is where your program goes. 
 
 When you grab blocks from the toolbox, you will place them in the workspace. Only things in your workspace will run. 
+
+Every new project automatically has two blocks to get you started: `forever`{:class='microbitbasic'} and `on start`{:class='microbitbasic'}.
 
 --- /collapse ---
 
