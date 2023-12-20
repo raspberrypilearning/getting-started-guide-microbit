@@ -31,7 +31,7 @@ You can find the `play tone`{:class='microbitmusic'} and `set volume`{:class='mi
 
 You will have to download the program onto your micro:bit for this test. 
 
-**Once you are sure it is working, make sure to delete the `play tone`{:class='microbitmusic'} block.**
+**Once you are sure it is working, make sure to delete the `play tone`{:class='microbitmusic'} block so you're ready for the next steps.**
 
 --- /collapse ---
 
