@@ -64,7 +64,7 @@ If your micro:bit still doesn't pair, you can use the **Download** button to dow
 
 **Windows:** Open **File Explorer** and check that you can see `MICROBIT` under `This PC` on the left-hand side. If it is there, drag the downloaded `.HEX` file to it, and your program will be saved to your micro:bit. You should now be able to use it.
 
-**MacOS:** Open **Finder** and check that you can see `MICROBIT` under `Locations` on the left-hand side. If it is there, drag the downloaded `.HEX` file to it, and your program will be saved to your micro:bit. You should be able to use it.
+**MacOS:** Open **Finder** and check that you can see `MICROBIT` under `Locations` on the left-hand side. If it is there, drag the downloaded `.HEX` file to it, and your program will be saved to your micro:bit. You should now be able to use it.
 
 --- /collapse ---
 
