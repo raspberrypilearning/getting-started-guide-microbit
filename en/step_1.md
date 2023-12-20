@@ -8,7 +8,7 @@ The BBC micro:bit is a pocket-sized computer that has sensors and outputs built 
 
 <div>
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
- The brand new <span style="color: #0faeb0"><a href="https://projects.raspberrypi.org/en/pathways/microbit-intro">Introduction to micro:bit path</a></span> will help you take your first steps with the BBC micro:bit. Along the way, you will create projects that are fun, and help you manage your wellbeing!
+ The <span style="color: #0faeb0"><a href="https://projects.raspberrypi.org/en/pathways/microbit-intro">Introduction to micro:bit path</a></span> will help you take your first steps with the BBC micro:bit. Along the way, you will create projects that are fun ways to help you manage your wellbeing!
 </p>
 </div>
 
@@ -30,7 +30,7 @@ title: What you will need
 + A BBC micro:bit (V1 or V2)
 + A micro USB cable
 + Battery pack and two AAA batteries
-+ Wired headphones and crocodile cables (**V1 micro:bit only**)
++ Wired headphones and crocodile clip cables (**V1 micro:bit only**)
 
 ### Software
 
@@ -45,7 +45,7 @@ title: What you will learn
 
 + How to use the MakeCode editor
 + How to connect your micro:bit to your computer and download a MakeCode program to it
-+ How to use the micro:bit's components, like the LEDs, sensors, buttons and speaker (V2 only)
++ How to use the micro:bit's components, like the LEDs, sensors, buttons, and speaker (V2 only)
 
 --- /collapse ---
 
