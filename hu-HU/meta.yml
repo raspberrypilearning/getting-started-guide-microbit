@@ -1,0 +1,30 @@
+title: Getting started with micro:bit
+hero_image: images/banner.png
+description: Getting started with the micro:bit
+version: 1
+listed: false
+copyedit: false
+last_tested: "2023-10-03"
+steps:
+  - 
+    title: Introduction
+  - 
+    title: Meet the micro:bit
+  - 
+    title: The MakeCode editor
+  - 
+    title: Connecting the micro:bit
+  - 
+    title: Using the LEDs
+  - 
+    title: Using the sensors
+  - 
+    title: Inputs
+  - 
+    title: Sounds
+  - 
+    title: Powering the micro:bit
+  - 
+    title: Sharing your code
+  - 
+    title: What's next?
