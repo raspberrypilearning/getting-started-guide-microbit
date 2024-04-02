@@ -1,8 +1,8 @@
 ## Powering the micro:bit
 
-In this step you will learn how to run your micro:bit when it is not connected to the computer. 
+In this step, you will learn how to run your micro:bit when it is not connected to the computer. 
 
-For this step you will need the **battery pack** and **batteries** that came with your micro:bit. 
+For this step, you will need the **battery pack** and **batteries** that came with your micro:bit. 
 
 --- collapse ---
 
@@ -10,9 +10,9 @@ For this step you will need the **battery pack** and **batteries** that came wit
 title: You have no batteries or battery pack
 ---
 
-If you didn't get any batteries or a battery pack, then you can still make all the amazing projects with the micro:bit that both we at the Raspberry Pi Foundation and the micro:bit Foundation have. 
+If you didn't get any batteries or a battery pack, don't worry! You can still do all the amazing micro:bit projects that we at the Raspberry Pi Foundation and the micro:bit Foundation have created to help and inspire you. 
 
-The connector used for the battery pack is quite common **2 pin** connector. So another battery pack you have (as long as it only takes two batteries) should work too.
+The connector used for the battery pack is a quite common **2 pin** connector. So if you have another battery pack that takes only two batteries, you should be able to use that. 
 
 --- /collapse ---
 
@@ -32,21 +32,21 @@ Disconnect the micro USB cable from the micro:bit.
 
 --- task ---
 
-Put the batteries in the battery pack, make sure to line up the `-` and `+` sides of the batteries with the slots.
+Put the batteries into the battery pack. Make sure you line up the `-` and `+` sides of the batteries with the slots.
 
 --- /task ---
 
 --- task ---
 
-Connect the battery pack to the white connector in the top left corner of the micro:bit. 
+Connect the battery pack to the white connector in the top-left corner of the micro:bit. 
 
-<img src="images/battery-port.jpg" alt="The top of the micro:bit the battery connector on the right is highlighted. " width="350"/>
+<img src="images/battery-port.jpg" alt="The top of the micro:bit the battery connector on the right is highlighted." width="350"/>
 
-There is a line on one side of the battery pack, this will slot into the line on the battery pack connector. 
+There is a line on one side of the battery pack, this will slot into the groove on the battery pack connector. 
 
 --- /task ---
 
-The micro:bit should power up, running the program you downloaded onto it.
+The micro:bit should power up, and run the program you downloaded onto it.
 
 --- task ---
 
@@ -60,12 +60,12 @@ You can reset the micro:bit by clicking the button next to the battery pack conn
 
 --- task ---
 
-Make sure to disconnect the battery pack before you plug your micro:bit back in to your computer.
+Make sure to disconnect the battery pack before you plug your micro:bit back in to your computer!
 
 --- /task ---
 
-Take a few of the programs you have made during this project, download the programs onto your micro:bit.
+Download a few of the programs you have made during this project onto your micro:bit.
 
-Test them out with the battery pack, take it to show your friends or family what you have made! 
+Test them out with the battery pack; take it to show your friends or family what you have made! 
 
 Well done, you now have loads of experience with the micro:bit!

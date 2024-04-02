@@ -1,28 +1,26 @@
 ## Using the LEDs
 
-In this step you will learn the ways you can use the LED display on the front of the micro:bit.
+In this step, you will explore the various ways you can use the LED display on the front of the micro:bit.
 
-### Displaying words
+### Display words
 
-You used this in the last step, you can display words (called a **string** in computing) on the micro:bit's LEDs. 
+You used this in the last step, where you displayed words (called a **string** in computing) on the micro:bit's LEDs. 
 
 The words will scroll across from right to left.
    
-<img src="images/scrolling-words.gif" alt="The text 'Here are some words' scrolling on the micro:bit simulator's LEDs" width="250"/>
+<img src="images/scrolling-words.gif" alt="The text 'Here are some words' scrolling on the micro:bit simulator's LEDs." width="250"/>
 
 **Tip:** The words scroll very slowly, so make sure to keep your messages short!
 
-To do this you use the `show string`{:class='microbitbasic'} block from the `Basic`{:class='microbitbasic'} menu in the Toolbox. 
+To do this, you use the `show string`{:class='microbitbasic'} block from the `Basic`{:class='microbitbasic'} menu in the toolbox. 
 
-### Pictures (icons)
+### Draw pictures (icons)
 
 You can also use the LEDs to display simple pictures and icons. 
 
-In the last step you used the `show icon`{:class='microbitbasic'} block to do this. 
+In the last step, you used the `show icon`{:class='microbitbasic'} block to do this. 
 
-This allows you to choose from pre-programmed icons. 
-
-You can also draw your own! 
+This allows you to choose from preprogrammed icons, but you can also draw your own! 
 
 --- task ---
 
@@ -42,13 +40,13 @@ Click on the **New Project** button.
 
 --- task ---
 
-Name your project `drawing icons` and click **Create**
+Name your project `drawing icons` and click **Create**.
 
 --- /task ---
 
 --- task ---
 
-Open the `Basic`{:class='microbitbasic'} menu in the Toolbox and find the `show leds`{:class='microbitbasic'} block. 
+Open the `Basic`{:class='microbitbasic'} menu in the toolbox and find the `show leds`{:class='microbitbasic'} block. 
 
 <img src="images/show-leds-block-location.png" alt="The Basic menu open, with the show leds block highlighted." width="350"/>
 
@@ -56,7 +54,7 @@ Open the `Basic`{:class='microbitbasic'} menu in the Toolbox and find the `show 
 
 --- task ---
 
-Drag this into the Workspace and place it inside the `forever`{:class='microbitbasic'} block. 
+Drag this into the workspace and place it inside the `forever`{:class='microbitbasic'} block. 
 
 ```microbit
 basic.forever(function () {
@@ -74,18 +72,18 @@ basic.forever(function () {
 
 --- task ---
 
-You can draw your icons by click on the squares, a white filled in square will mean the LED lights up. 
+You can draw your icons by clicking on the squares. A white square means the LED will light up. 
 
-Draw yourself an icon and test it out in the simulator.
+Draw an icon and test it out in the simulator.
 
-<img src="images/draw-icons.png" alt="The show leds block, with a smiley face drawn on it. Next to it is the micro:bit simulator with the same smiley face on the LEDs" width="400"/>
+<img src="images/draw-icons.png" alt="The show leds block, with a smiley face drawn on it. Next to it is the micro:bit simulator with the same smiley face on the LEDs." width="400"/>
 
 --- /task ---
 
-### Showing numbers
+### Show numbers
 
 You can also use the `show number`{:class='microbitbasic'} block to display numbers. 
 
-If it is a single digit numer (0-9) it will take the whole screen. Any more than that the number will scroll like the words. 
+If it is a single digit number (0–9), the number will fill the whole screen. Numbers that have two digits (10+) will scroll across the display like words do. 
 
 You will use this block in the next step to test the sensors! 

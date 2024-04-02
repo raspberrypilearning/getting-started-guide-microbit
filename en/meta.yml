@@ -9,11 +9,11 @@ steps:
   - title: Introduction
   - title: Meet the micro:bit
   - title: The MakeCode editor
-  - title: Connecting the micro:bit
+  - title: Connect the micro:bit
   - title: Using the LEDs
-  - title: Using the sensors
+  - title: How to use the sensors
   - title: Inputs
   - title: Sounds
   - title: Powering the micro:bit
-  - title: Sharing your code
-  - title: What's next?
+  - title: How to share your code
+  - title: What next?
