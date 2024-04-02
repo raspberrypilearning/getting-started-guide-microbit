@@ -16,8 +16,6 @@ Click on the **Download** button below the simulator.
 
 Now plug the USB cable attached to your micro:bit into your computer. And click **Continue**.
 
-![Image of USB going into computer - Rob will make this]()
-
 --- /task ---
 
 --- task ---

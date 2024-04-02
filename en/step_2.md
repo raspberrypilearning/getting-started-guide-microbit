@@ -94,7 +94,7 @@ Turn the micro:bit over so you are looking at the back, and see if you can find 
 
 Plug the micro USB end of your cable into the port on the top of the micro:bit.
 
-![USB Cable plug in - Rob will make this]()
+![A USB cable plugged in to the top of a micro:bit](images/plugging_in_microbit.png)
 
 --- /task ---
 
