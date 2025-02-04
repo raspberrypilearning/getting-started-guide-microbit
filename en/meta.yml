@@ -2,7 +2,7 @@ title: Getting started with micro:bit
 hero_image: images/banner.png
 description: Getting started with the micro:bit
 version: 1
-listed: false
+listed: true
 copyedit: false
 last_tested: "2023-10-03"
 steps:
