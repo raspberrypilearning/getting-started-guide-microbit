@@ -1,7 +1,5 @@
 ## Introduction
 
-![Illustration of the BBC micro:bit, surrounded by icons representing the different projects in the micro:bit pathway.](images/microbit-pathway-banner.png)
-
 The BBC micro:bit is a pocket-sized computer that has sensors and outputs built in. You can use it to create physical computing projects that interact with the real world.
 
 [The micro:bit Foundation](https://microbit.org/){:target="_blank"} is an educational charity that created the micro:bit and the [MakeCode editor](https://makecode.microbit.org/#){:target="_blank"} to get young people excited about coding.
